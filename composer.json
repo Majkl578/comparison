@@ -1,0 +1,18 @@
+{
+    "name": "majkl578/comparison",
+    "type": "library",
+    "description": "Comparable & Equatable for PHP",
+    "license": "MIT",
+    "keywords": ["comparable", "equatable"],
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "doctrine/coding-standard": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Comparable\\": "src/"
+        }
+    }
+}
